@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VegEase</title>
+  <style>
+    #space{
+  background-color: white;
+  height: 90px;
+}
+    .contact{
+ background-color:whitesmoke;
+ height: 180px;
+ display: flex;
+}
+.a{
+  margin-right: 150px;
+  color: rgb(91, 181, 7);
+  font-size: 20px;
+}
+#b{
+  margin-left: 150px;
+  margin-right: 150px;
+  color: rgb(91, 181, 7);
+  font-size: 20px;
+}
+.c{
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#footer{
+  background-color: rgb(91, 181, 7);
+  height: 50px;
+}
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    .sidebar-item {
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      height: 50px;
+    }
+
+    .sidebar-item:hover {
+      background-color: #e0e0e0;
+    }
+
+    .sidebar-item i {
+      margin-right: 10px;
+    }
+
+    .content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .header-logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+    }
+
+    .header-action {
+      margin-left: 10px;
+    }
+
+    .header-action i {
+      font-size: 20px;
+    }
+
+    .search-bar {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .order-section {
+      margin-top: 20px;
+    }
+
+    .order-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .order-info img {
+      width: 200px;
+    }
+
+    .order-info p {
+      margin-left: 20px;
+      font-size: 16px;
+    }
+    .div1{
+    background-color: rgb(91, 181, 7);
+    height: 70px;
+      display: flex; 
+      #loc{
+   margin-left: 50px;
+   margin-top: 20px;
+}
+#marq{
+  margin-top: 25px;
+  color: aliceblue;
+}
+#search{
+  height: 30px;
+  width: 320px;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+#cart{
+  margin-top: 20px;
+}
+#profile{
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+ 
+}
+.toggle-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+   
+}    
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="div1">
+       
+        <img src="logo.png" height="70",width="70">
+        <i id="loc" style='font-size:24px' class='fas'>&#xf3c5;</i>  
+        <marquee id="marq" behavior="alternate" direction="left" scrollamount="1" scrolldelay="1"  width="200px">
+            Set Your Location
+          </marquee>
+          <input id="search" type="text" placeholder="Search Courses" name="search" height="50px" width="50px">
+          <img id="cart" src="cart.png" height="35px" width="60px">
+            <div class="toggle-button">
+    <span class="three-dots-vertical">
+ <img id="profile" src="profile.png">
+</div>
+</span>
+</div>
+</div>
+         
+    </div>
+    </nav>
+    <div id="space1"></div>
+  <div class="container">
+    <div class="sidebar">
+      <div class="sidebar-item">
+        <i class="fa fa-user"></i> My Profile
+      </div>
+      <div class="sidebar-item">
+        <i class="fa fa-wallet"></i> My Wallet
+      </div>
+      
+      <div class="sidebar-item">
+        <i class="fa fa-trophy"></i> My Rewards
+      </div>
+      <div class="sidebar-item">
+        <i class="fa fa-map-marker"></i> My Address
+      </div>
+      <div class="sidebar-item">
+        <i class="fa fa-calendar"></i> My Orders
+      </div>
+    </div>
+    <div class="content">
+      <div class="header">
+        
+        <div class="header-actions">
+          <div class="header-action">
+            <i class="fa fa-location-arrow"></i> Delivery Address
+          </div>
+          <div class="header-action">
+            <i class="fa fa-search"></i>
+          </div>
+          <div class="header-action">
+            <i class="fa fa-shopping-cart"></i>
+          </div>
+          <div class="header-action">
+            <i class="fa fa-user-circle"></i>
+          </div>
+        </div>
+      </div>
+      <input type="text" class="search-bar" placeholder="Search Products...">
+      <div class="order-section">
+        <h2>My Orders</h2>
+        <div class="order-info">
+          <img src="no_order.png" alt="Order Image">
+          <p>You Haven't Placed Any Order Yet<br>After Placing Order You Can Track Them Here</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ====================================================== -->
+  <div id="space"></div>
+  <div class="contact">
+    <div id="b">Contact Us
+        <div class="c">lavi05@gmail.com
+            <div></div>
+            <div class="c">9350697515</div>
+        </div>
+    </div>
+    <div class="a">Location
+        <div class="c">Karnal
+            <div class="c">Sec 7</div>
+        </div>
+    </div>
+    <div class="a">For Us
+        <div class="c">Privacy Policy
+            <div class="c">Terms and Condition</div>
+        </div>
+        
+    </div>
+   
+    </div>
+    <footer id="footer"></footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:rgb(91, 181, 7);
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+  }
+  .div1{
+      background-color: rgb(91, 181, 7);
+      height: 70px;
+        display: flex; 
+     
+  }
+  #space1{
+    background-color: white;
+    height: 90px;
+  }
+  
+  #loc{
+     margin-left: 50px;
+     margin-top: 20px;
+  }
+  #marq{
+    margin-top: 25px;
+    color: aliceblue;
+  }
+  #search{
+    height: 30px;
+    width: 320px;
+    margin-left: 180px;
+    margin-top: 20px;
+  }
+  #cart{
+    margin-top: 20px;
+  }
+  #profile{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+   
+  }
+  .center {
+    margin: auto;
+    width: 350px;
+    border: 3px solid green;
+    padding: 10px;
+    height: 400px;
+  }
+  #no{
+    margin-left: 0px;
+  }
+  #sp{
+    background-color: white;
+    width: 20px;
+    height: 40px;
+  }

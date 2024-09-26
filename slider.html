@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slider-container {
+  position: relative;
+  width: 800px; /* adjust the width to your liking */
+  height: 400px; /* adjust the height to your liking */
+  margin: 40px auto;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.prev-btn, .next-btn, .goto-btn {
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.prev-btn:hover, .next-btn:hover, .goto-btn:hover {
+  background-color: #ccc;
+}
+
+.prev-btn {
+  margin-right: 10px;
+}
+
+.next-btn {
+  margin-left: 10px;
+}
+
+.goto-btn {
+  margin: 0 5px;
+}
+
+.goto-btn.active {
+  background-color: #333;
+  color: #fff;
+}
+    </style>
+</head>
+<body>
+    <div class="slider-container">
+        sjo
+        <div class="slider">
+          <div class="slide" id="slide1">Slide 1 content</div>
+          <div class="slide" id="slide2">Slide 2 content</div>
+          <div class="slide" id="slide3">Slide 3 content</div>
+        </div>
+        <div class="button-container">
+          <button class="prev-btn" id="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-btn" id="next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          <button class="goto-btn" id="goto-btn-1">
+            <i class="fas fa-circle"></i>
+          </button>
+          <button class="goto-btn" id="goto-btn-2">
+            <i class="fas fa-circle"></i>
+          </button>
+          <button class="goto-btn" id="goto-btn-3">
+            <i class="fas fa-circle"></i>
+          </button>
+        </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,275 @@
+/* Basic Styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #00cc00;
+    color: white;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+aside a:hover {
+    background-color: #f2f2f2;
+}
+
+section {
+    flex: 1;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.balance, .add-money {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.balance h3, .add-money h3 {
+    margin-bottom: 10px;
+}
+
+.balance p {
+    font-size: 24px;
+}
+
+.add-money input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.add-money button {
+    background-color: #00cc00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-money button:hover {
+    background-color: #009900;
+}
+
+.offers {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.offer {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1 0 200px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+/* ========================= */
+#space{
+    background-color: white;
+    height: 90px;
+  }
+      .contact{
+   background-color:whitesmoke;
+   height: 180px;
+   display: flex;
+  }
+  .a{
+    margin-right: 150px;
+    color: rgb(91, 181, 7);
+    font-size: 20px;
+  }
+  #b{
+    margin-left: 150px;
+    margin-right: 150px;
+    color: rgb(91, 181, 7);
+    font-size: 20px;
+  }
+  .c{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #footer{
+    background-color: rgb(91, 181, 7);
+    height: 50px;
+  }
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .container {
+        display: flex;
+        width: 100%;
+      }
+  
+      .sidebar {
+        width: 200px;
+        background-color: #f5f5f5;
+        padding: 20px;
+      }
+  
+      .sidebar-item {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        height: 50px;
+      }
+  
+      .sidebar-item:hover {
+        background-color: #e0e0e0;
+      }
+  
+      .sidebar-item i {
+        margin-right: 10px;
+      }
+  
+      .content {
+        flex: 1;
+        padding: 20px;
+      }
+  
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+  
+      .header-logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+      }
+  
+      .header-actions {
+        display: flex;
+        align-items: center;
+      }
+  
+      .header-action {
+        margin-left: 10px;
+      }
+  
+      .header-action i {
+        font-size: 20px;
+      }
+  
+      .search-bar {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+  
+      .order-section {
+        margin-top: 20px;
+      }
+  
+      .order-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .order-info img {
+        width: 200px;
+      }
+  
+      .order-info p {
+        margin-left: 20px;
+        font-size: 16px;
+      }
+      .div1{
+      background-color: rgb(91, 181, 7);
+      height: 70px;
+        display: flex; 
+        #loc{
+     margin-left: 50px;
+     margin-top: 20px;
+  }
+  #marq{
+    margin-top: 25px;
+    color: aliceblue;
+  }
+  #search{
+    height: 30px;
+    width: 320px;
+    margin-left: 180px;
+    margin-top: 20px;
+  }
+  #cart{
+    margin-top: 20px;
+  }
+  #profile{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+   
+  }
+  .toggle-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
